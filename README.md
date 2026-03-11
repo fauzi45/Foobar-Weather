@@ -26,6 +26,18 @@ Two simple Node.js scripts demonstrating basic programming logic and external AP
 - Displays up to six distinct calendar days with temperatures in °C
 - Includes basic error handling for HTTP failures
 
+## Prerequisites
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Create a `.env` file in the project root with your OpenWeatherMap API key:
+   ```
+   OPENWEATHER_API_KEY=your_api_key_here
+   ```
+   > Get your free API key at [openweathermap.org](https://openweathermap.org/api).
+
 ## Usage
 
 ```bash
@@ -47,5 +59,5 @@ node weather.js
 
 ## Notes
 
-- The API key is hard-coded for demo purposes — store it securely in production.
+- The API key is stored securely in a `.env` file and loaded via [`dotenv`](https://www.npmjs.com/package/dotenv) — never commit your `.env` file to version control.
 - Both scripts are intentionally simple and suitable for educational use.

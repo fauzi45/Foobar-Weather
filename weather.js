@@ -1,5 +1,7 @@
+require('dotenv').config();
+
 const config = {
-  apiKey: '51bb16546fcbab6ea4f6c0e5b64f82bf',
+  apiKey: process.env.OPENWEATHER_API_KEY,
   lat: '-6.2088',
   lon: '106.8456',
   buildUrl() {

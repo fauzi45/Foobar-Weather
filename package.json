@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Two simple Node.js scripts demonstrating basic programming logic and external API consumption.",
+  "main": "foobar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauzi45/Foobar-Weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fauzi45/Foobar-Weather/issues"
+  },
+  "homepage": "https://github.com/fauzi45/Foobar-Weather#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
